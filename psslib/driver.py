@@ -149,7 +149,7 @@ IGNORED_DIRS = set([
     '.pc', '~.plst', 'RCS', 'SCCS', '_sgbak', '.svn', '.tox',
     '.metadata', '.cover'])
 
-IGNORED_FILE_PATTERNS = set([r'~$', r'#.+#$', r'[._].*\.swp$', r'core\.\d+$'])
+IGNORED_FILE_PATTERNS = set([r'~$', r'#.+#$', r'[._].*\.swp$', r'core\.\d+$', r'tags$'])
 
 
 class PssOnlyFindFilesOption:
